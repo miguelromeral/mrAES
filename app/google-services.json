@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "409153665460",
+    "firebase_url": "https://miguelromeralcipher.firebaseio.com",
+    "project_id": "miguelromeralcipher",
+    "storage_bucket": "miguelromeralcipher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409153665460:android:a0e2d4e3fe6ed6a3",
+        "android_client_info": {
+          "package_name": "es.uah.edu.miguelangelgarciar.mraes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409153665460-q5nc68c5grm182kjj0a98goo1nna2bsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.uah.edu.miguelangelgarciar.mraes",
+            "certificate_hash": "49cf13c76a9513f22cb2ac91cdf196e1922b1131"
+          }
+        },
+        {
+          "client_id": "409153665460-5vt80304ml8205bjh25jv63uuu80u4cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_srm6TxcMKHzUzf5B9uvOakNRMCp3lpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409153665460-5vt80304ml8205bjh25jv63uuu80u4cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,381 @@
+<resources>
+    <string name="app_name">mrCiphER=</string>
+
+    <!-- Comun para interfaces -->
+
+        <string name="e">Clave:</string>
+        <string name="plano">Mensaje plano</string>
+        <string name="cifrado">Mensaje cifrado</string>
+        <string name="ver_pwd">Mostrar clave</string>
+        <string name="no_ver_pwd">Ocultar clave</string>
+        <string name="ok">Vale</string>
+        <string name="h_e">Clave para cifrar los datos</string>
+        <string name="input_e">Mensaje a cifrar:</string>
+        <string name="input_d">Mensaje a descifrar:</string>
+        <string name="output">Salida:</string>
+        <string name="clave">Clave: </string>
+
+    <!-- BOTONES -->
+
+        <string name="enc">CIFRAR</string>
+        <string name="desenc">DESCIFRAR</string>
+        <string name="copy">COPIAR SALIDA</string>
+        <string name="help">AYUDA</string>
+        <string name="borrar_in">BORRAR ENTRADA</string>
+        <string name="borrar_out">BORRAR SALIDA</string>
+        <string name="paste_in">PEGAR ENTRADA</string>
+        <string name="forget">BORRAR PORTAPAPELES</string>
+        <string name="cipher">CIFRADOR</string>
+        <string name="hash">HASH</string>
+
+    <!-- Mensajes de error y advertencias por pantallas -->
+
+        <string name="w_falta_e">Debe introducir una clave de entre 1 y 16 caractéres para poder cifrar los datos.</string>
+        <string name="ex_e">Ha ocurrido un problema durante el cifrado.</string>
+        <string name="ex_cargar">Ha ocurrido un problema durante la carga de datos.</string>
+        <string name="ex_guardar">Ha ocurrido un problema durante el guardado de datos.</string>
+        <string name="ex_cargar_preferencias">Ha ocurrido un problema durante la carga de preferencias.</string>
+        <string name="ex_guardar_preferencias">Ha ocurrido un problema durante el guardado de preferencias.</string>
+        <string name="ex_salida">No se ha producido ninguna salida.</string>
+        <string name="ex_portapapeles">No hay elementos en el portapapeles.</string>
+        <string name="ex_men">No puede dejar el mensaje vacío.</string>
+        <string name="c_no_coincide">La clave no se corresponde con el mensaje cifrado.</string>
+        <string name="c_no_coincide_cab">Error al descifrar.</string>
+        <string name="w_salir">Presione de nuevo el botón ATRÁS para salir de la aplicación.</string>
+        <string name="w_forget">¿Está seguro de que desea borrar el portapapeles actual? El contenido cifrado/descifrado que ha generado se eliminará y no podrá ser recuperado si no lo copió previamente.</string>
+        <string name="forgotten">Portapapeles borrado con éxito.</string>
+        <string name="w_compartir">Debe generar una salida para compartir el resultado.</string>
+        <string name="w_clave_rsa">Debe introducir una clave RSA válida.</string>
+        <string name="w_pwd_solo_letras">La clave solo puede tener letras.</string>
+        <string name="warning">¡ ADVERTENCIA !</string>
+    <string name="w_no_seguro">ESTE ALGORITMO SE CONSIDERA NO SEGURO</string>
+
+    <!-- Acerca De -->
+
+        <string name="devel">Desarrollado por MiguelRomeral</string>
+        <string name="AcercaDe">Desarrollado por MiguelRomeral</string>
+        <string name="b_email">ENVIAR SUGERENCIA</string>
+        <string name="w_email">Ha ocurrido un problema al crear el mensaje.</string>
+        <string name="mail_to">mailto:miguelangel.garciar@edu.uah.es</string>
+        <string name="subject_mail">Sugerencia App mrCiphER=</string>
+        <string name="head_mail">¡Hola, Miguel Romeral! He probado tu aplicación y me gustaría enviarte una sugerencia para futuras versiones:\n\n</string>
+        <string name="novedad_github">Porque lo bonito está en el interior...\nPuedes ver el contenido del proyecto en GitHub pulsando en el siguiente botón:</string>
+        <string name="ir_github">VER PROYECTO EN GitHub</string>
+        <string name="tPrivacidad">Leer política de privacidad de la aplicación</string>
+        <string name="bPrivacidad">POLÍTICA DE PRIVACIDAD</string>
+
+    <!-- Generador de hashes -->
+
+        <string name="mensajehash">Mensaje a hashear:</string>
+        <string name="hashear">GENERAR HASH</string>
+        <string name="mensajehasheado">Hash: [salt,h(salt|mensaje)]</string>
+        <string name="mensajesalt">Salt (opcional):</string>
+        <string name="random_salt">ALEATORIA</string>
+        <string name="bBorrarSal">BORRAR SALT</string>
+        <string name="bPegarSal">PEGAR SALT</string>
+        <string name="bBorrarEntradaSal">BORRAR MENSAJE</string>
+        <string name="bPegarEntradaSal">PEGAR MENSAJE</string>
+        <string name="bBorrarSalidaHash">BORRAR HASH</string>
+        <string name="bCopiarSalidaHash">COPIAR HASH</string>
+        <string name="algoritmoHash">Algoritmo hash:</string>
+        <string name="sha512">SHA-512</string>
+        <string name="md5">MD5</string>
+        <string name="comparaHash">Comparar con otro hash</string>
+        <string name="hashCoincide">¡Ambos hashes son iguales!</string>
+        <string name="hashNoCoincide">Los hashes no coinciden</string>
+        <string name="noHashComparado">Debe incluir un hash que comparar.</string>
+        <string name="borrarHashCompara">BORRAR HASH</string>
+        <string name="pegarHashCompara">PEGAR HASH</string>
+
+    <!-- MainActivity -->
+
+        <!-- Título en cada pestaña -->
+        <string name="tab_text_1">AES</string>
+        <string name="tab_text_2">HASH</string>
+        <string name="tab_text_3">RSA</string>
+        <string name="tab_text_4">DES</string>
+        <string name="tab_text_5">3DES</string>
+        <string name="tab_text_6">VIGENERE</string>
+        <string name="Proximamente">¡ Próximamente ;) !</string>
+        <!-- Título en cada fragment-->
+        <string name="alg_1">AES-128</string>
+        <string name="alg_2">HASH</string>
+        <string name="alg_3">RSA</string>
+        <string name="alg_4">TRIPLE DES</string>
+        <string name="alg_5">DES</string>
+        <string name="alg_6">VIGENERE</string>
+
+    <!-- Menu -->
+
+        <string name="action_about">Acerca de</string>
+        <string name="action_novedades">Novedades</string>
+        <string name="action_actualizaciones">Actualizar</string>
+        <string name="action_base64">Herramienta Base64</string>
+
+    <!-- RSA -->
+
+        <string name="preference_file_key">archivo_claves_rsa</string>
+        <string name="operacion_rsa">Objetivo de la operación:</string>
+        <string name="rsa_enviar_pub">EXPORTAR MI CLAVE PÚBLICA</string>
+    <string name="clave_rsa">Clave a utilizar:</string>
+    <string name="clave_rsa_export">Nombre del archivo para exportar la clave:</string>
+        <string name="fallo_rsa1">No se ha podido cifrar con RSA</string>
+        <string name="fallo_rsa2">No se ha podido descifrar con RSA</string>
+        <string name="advertencia_rsa">Este método de cifrado está en pruebas. En este momento NO ES POSIBLE
+        REUTILIZAR LAS CLAVES, por lo que NO DEBERÍA CIFRAR contenido sensible con este método (salvo que
+        se encuentre en la misma sesión sin haber cerrado la aplicación.\nDisculpe las molestias.</string>
+        <string name="rsa_mi_publica">PÚBLICA</string>
+        <string name="rsa_mi_privada">PRIVADA</string>
+    <string name="rsa_ayuda">AYUDA</string>
+    <string name="rsa_mensaje_ayuda">Puede utilizar su clave pública o privada pulsando en cualquiera de los botones que hay justo debbajo de este
+     botón. Si desea utilizar otra clave diferente, debe tener el fichero con la clave en la carpeta /MEMORIA_INTERNA/Android/data/es.uah.edu.miguelangelgarciar.mraes/files/Documents/.
+     Después, en el texto de la clave, ponga el nombre del fichero y ya podrá usarla.\nPara exportar nuestra clave pública, introduzca el nombre
+     del fichero en el cuadro de texto inferior y pulse sobre EXPORTAR MI CLAVE PÚBLICA</string>
+    <string name="rsa_mensaje_publica">--( MI CLAVE PÚBLICA ) --</string>
+    <string name="rsa_mensaje_privada">--[ MI CLAVE PRIVADA ] --</string>
+    <string name="w_too_much_data">El texto es demasiado largo para poder ser cifrado.</string>
+    <string name="w_falta_terceros">No se ha podido cargar esa clave pública de otro usuario. Escriba el nombre del archivo
+    perteneciente a la clave pública del otro usuario con la que quiere operar. Deberá estar guardada en
+        /MEMORIA_INTERNA/Android/data/es.uah.edu.miguelangelgarciar.mraes/files/Documents/.</string>
+    <string name="w_falta_export">Debe introducir un nombre de archivo para exportar la clave pública.</string>
+    <string name="exito_clave">Clave exportada con éxito.</string>
+    <string name="error_clave">No se ha podido exportar la clave.</string>
+    <string name="clave_nueva">Crearemos una nueva clave RSA para este teléfono.</string>
+    <string name="clave_nueva_error">No hemos podido crear una clave RSA para este teléfono.</string>
+
+    <!-- Vigenere -->
+
+        <string name="w_cesar">Si pone como clave una sola letra podría convertir el cifrado Vigenere en un cifrado César (aunque es mucho menos seguro).</string>
+        <string name="w_solo_letras">El mensaje contiene números y caracteres especiales (como acentos o eñes). ESTOS CARACTERES NO SERÁN CIFRADOS.</string>
+
+    <!-- Secreto -->
+
+        <string name="secreto0">¿Por qué no pruebas a seguir borrando la salida?</string>
+        <string name="secreto1">¡Eh, eh, eh! ¿Quieres asegurarte bien de que has borrado el contendo, eh?</string>
+        <string name="secreto2">Bien, ahora tengo otro secreto para ti, listillo. A ver si eres capaz de adivinar la contraseña
+        para poder descifrar este mensaje secreto que dejo a la persona curiosa que ha encontrado esta activity secreta</string>
+        <string name="secreto3">Contraseña: m********</string>
+        <string name="secreto4">4D25m6CWOJarzc/Lohz7wcpzP4Z+px/tzEHLEayJA6TXkuRU6khbu9wAv/c2wJm0Y0Cqx2SrsZpa
++Bzf59MZEO7qoLl1ti3TB0D292OMffswqWKhvjvmOym23Z1A6EmU4oJ1wAF/+65Fdmwofr/fmmAX
+kDRrr0VFkvKCQXecnr0ii192RsRzB2u/b+ct6wYfFm8v5XfU477JFTzRwkEkSI6hHRHdijbmqmFv
+400s9sGCSo4YI9Jj4d96bd7J7J01hHvnZ1SwdDrPgEIhcbKdpWbqTNZ/GgPA/LVav0sYwlIapgvY
+5OUK/aqw3b+tHPHiAhyOiEpryPaLvlcVGHkemSZp8AebZKoL9Hr8PsNvtAKIMHZsc1sqhC8z52RJ
+hDbwZ3kn6wMnBdii+cKrMCnFE4D3yb4toAjGLjHrDOK5AGVrfQUfQf/zBoIWBLIvp3gBHQOxADqN
+/hG7iMPJg39424PqPGDvLJvhCOdUuY2FYVg2TzpYitcoZ7Ui0btxRQLNxw4KdO/dUtRYuoxhTvaw
++urJGprRIw2T/BFsLSzEW0E2tKbDGgzKkdWfeDwdfrqqLD1jTHd5NG5KZNs3vysQm6SMyyv11mq1
+I+PW/gdZpd9RBzZA4DRnBFC5BJtRZvoqxKxWul26x24T2aBwDjaXGXBz1MypiIg0A3IgA2DtuRzZ
+fRMpuD2mAidIvImJcSOpm0g8JKn+oGB93TFIDV8pxc7fsvoDgJaLvqnzK17Ax8G95YDByrlUWNEO
++wBhiKyQsuSikb+0shmFx4x54QYpjjxJVWr0qS4Kvv++BXAZMDQ5SZ1jTAdOoPcKEa4DIGS53iov
+mq/4eaQcVkjLwIv+kW2etw/IXUc05/LNu1msrCBAmygGENTz1DanETTryDpNe9RwBbioCxbBi0RD
+52uh6MeSK208Mx2g4asxD57LnSWKJ1l2IiX26ny1yIyE/FWby3xZqtmOuDRKSHEbLlb0/AR0teiB
+HoLVNjSb15STY2GasgsvDTY5U3OMK2p5nHyO03O5eGOqBaKPuaZf0+JiXK0OAvODzAFyobQW6ehr
+glFc7Tw2jC7AkTJWvyOcbv/STtleApmd2tXMwyskO46osyWsfp/o+1tdh5UQSKKZTf+vw9lT0JU2
+XofqKvivYYwt
+</string>
+        <string name="secreto5">COPIAR SECRETO</string>
+        <string name="secreto6">PD: recuerda que puedes volver pulsando 7 veces seguidas con 5 segundos
+             como máximo de diferencia sobre el botón BORRAR SALIDA en AES</string>
+        <string name="secreto7">Secreto copiado al portapapeles.</string>
+
+    <!-- DES -->
+
+        <string name="borrar_pwd">BORRAR PASSWD</string>
+        <string name="pegar_pwd">PEGAR PASSWD</string>
+        <string name="generar_pwd">GENERAR CLAVE</string>
+        <string name="des_pwd">Clave:</string>
+        <string name="adv_generar_pwd">¿Está seguro de que desea generar una nueva clave? Si ha cifrado datos con otra clave diferente no podría descifrarlos
+        con la nueva. Se recomienda guardar la clave anterior.</string>
+
+    <!-- Triple DES -->
+
+        <string name="triple_des_pwd">Clave:</string>
+        <string name="w_falta_pwd">Es necesario introducir una clave en Base64.</string>
+
+
+    <!-- Ayuda -->
+
+        <string name="ver_video">VER VÍDEO EXPLICATIVO</string>
+        <string name="fuente_upm">Vídeo: www.criptored.upm.es/thoth/</string>
+        <string name="w_video">Ha ocurrido un problema por el que no podemos redirigirte al vídeo. Lamentamos las molestias.</string>
+
+    <!-- Ayuda AES -->
+
+        <string name="ayuda">AYUDA</string>
+        <string name="ayuda_aes_wiki">Advanced Encryption Standard (AES), también conocido como Rijndael
+            (pronunciado "Rain Doll" en inglés), es un esquema de cifrado por bloques adoptado como un
+            estándar de cifrado por el gobierno de los Estados Unidos. El AES fue anunciado por el
+            Instituto Nacional de Estándares y Tecnología (NIST) como FIPS PUB 197 de los Estados
+            Unidos (FIPS 197) el 26 de noviembre de 2001 después de un proceso de estandarización que
+            duró 5 años. Se transformó en un estándar efectivo el 26 de mayo de 2002. Desde 2006,
+            el AES es uno de los algoritmos más populares usados en criptografía simétrica.</string>
+        <string name="ayuda_aes_funcionamiento">Para cifrar en AES, debe introducir una clave de máximo
+        16 caracteres, puesto que la clave debe tener 128 bits de clave. Los bytes que faltan en la clave
+        serán rellenados con espacios. Después de escribir una clave, debe escribir cualquier mensaje
+        y pulsar sobre el botón CIFRAR / DESCIFRAR para poder transformar los datos.</string>
+        <string name="fuente_wiki">Fuente: es.wikipedia.org</string>
+
+
+    <!-- Actualizaciones -->
+
+        <string name="nueva_actualizacion">Actualización disponible</string>
+        <string name="actualizacion_mensaje">Existe actualmente una nueva versión de mrCiphER=. ¿Desea instalarla en este momento?
+            IMPORTANTE: deberá tener activada la opción "Orígenes desconocidos" en los ajustes del teléfono sobre aplicaciones.</string>
+        <string name="act_no">AHORA NO</string>
+        <string name="act_si">ACTUALIZAR</string>
+        <string name="act_buscando">Buscando actualizaciones</string>
+        <string name="act_error">Ha ocurrido un error al intentar actualizar la aplicación. Sentimos las molestias.</string>
+        <string name="act_actualizado">¡En este momento ya tiene la última versión de la aplicación! Comprobaremos automáticamente si existen
+            actualizaciones sin que tengas que preocuparte.</string>
+
+    <!-- Base64 Herramienta -->
+
+        <string name="b64_titulo">HERRAMIENTA BASE64</string>
+        <string name="b64_input">Texto en Base64:</string>
+        <string name="b64_output">Cadena hexadecimal:</string>
+        <string name="b64_output_char">Cadena de caracteres:</string>
+        <string name="b64_exe">CONVERTIR</string>
+        <string name="ex_b64">La cadena de texto introducida no está en base 64. No se pudo realizar la conversión</string>
+
+    <!-- Novedades -->
+
+        <string name="Novedades">
+        ========================================\n
+        \n
+        \tVersión 2.0 \n
+        \n
+        - Lanzamiento oficial en Google Play.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.7.4 (beta)\n
+        \n
+        - Cambios en la interfaz del usuario (Fuente).\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.7.3 (beta)\n
+        \n
+        - Arreglados pequeños fallos en AES.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.7.2 (beta)\n
+        \n
+        - Ya se pueden exportar claves públicas en RSA y utilizar claves importadas.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.7.1 (beta)\n
+        \n
+        - Acceso directo hacia el proyecto de GitHub.\n
+        - Creada una herramienta para pasar cadenas para Base64 a hexadecimal.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.7 (beta)\n
+        \n
+        - Consulta de actualizaciones de la aplicación de manera automática (al iniciar la aplicación varias veces) y manual (en el menú).\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.6.2 (beta)\n
+        \n
+        - Cambiada la fuente de la aplicación.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.6.1 (beta)\n
+        \n
+        - Añadida información acerca del algoritmo AES.\n
+        - Las claves de RSA ya son persistentes. Aún no se puede operar con la clave pública de otro usuario (para sacarle todo el partido
+        a la criptografía asimétrica).\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.6 (beta)\n
+        \n
+        - Añadido DES seguro (3DES en modo ede).\n
+        - Añadido el cifrado Vigenere (con una clave de una sola letra se consigue un cifrado Cesar).\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.5.2 (beta)\n
+        \n
+        - Añadidos los demás algoritmos de Hash que faltaban como SHA-224 o SHA-1.\n
+        - Modificaciones en la interfaz y restructuración de la aplicación.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.5.1 (beta)\n
+        \n
+        - Arreglados problemas de rendimiento al inicio de la aplicación.\n
+        - Incluido un botón en la actividad "Acerca de" en la que se pueden enviar sugerencias al desarrollador.
+        - Cambios en la interfaz: botones rutinarios con símbolos en lugar de textos tan largos.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.5 (beta)\n
+        \n
+        - Implementado el cifrado con DES.\n
+        - Las contraseñas en AES y DES se guardan\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.4 (beta)\n
+        \n
+        - Implementada el cifrado con RSA pero con claves no reutilizables.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.3.1 (beta)\n
+        \n
+        - Añadido un secretito ;) A ver quién lo descifra.\n
+        - Incluida una actividad con las novedades en cada versión.\n
+        - Incluidos los tabs para futuras funcionalidades (aunque no se muestran).\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.3.0 (beta)\n
+        \n
+        - Incluido una actividad "Acerca de" con información sobre el desarrollador.\n
+        - Cambiada la estructura de la App a fragments (mejor acceso a las funcionalidades).\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.2.1 (beta)\n
+        \n
+        - Botón para compartir la salida del cifrador (llamada al sistema operativo).\n
+        - Añadida funcionalidad para comparar hashes entre ellos.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.2.0 (beta)\n
+        \n
+        - Añadida funcionalidad para generar hashes en SHA512 y MD5 (incluyendo salt) y opciones sobre éstos.
+        - Botón para borrar la salida del cifrador.\n
+        - Botón para borrar el contenido del portapapeles.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.1.2 (beta)\n
+        \n
+        - Cambiado aspecto de interfaz a negro y azul (incluido logo).\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.1.0 (beta)\n
+        \n
+        - Añadidos botones para mejorar el copiado / pegado de lo cifrado.\n
+        \n
+        ========================================\n
+        \n
+        \tVersión 1.0.0 (beta)\n
+        \n
+        - Funcionalidad testeada.\n
+        - Primera versión del cifrador AES de 128 bits.\n
+        \n
+        ========================================\n
+        \n
+    </string>
+
+</resources>

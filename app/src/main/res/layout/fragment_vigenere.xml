@@ -1,0 +1,327 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.uah.edu.miguelangelgarciar.mraes.activities.MainActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvED4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/exo2black"
+                android:text="@string/alg_6"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvNoSeguro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@android:drawable/stat_sys_warning"
+                    android:drawableRight="@android:drawable/stat_sys_warning"
+                    android:fontFamily="@font/exo2extrabold"
+                    android:text="@string/w_no_seguro"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvClave3des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/exo2regular"
+                    android:text="@string/clave"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/cbVig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorPrimary"
+                    android:fontFamily="@font/exo2regular"
+                    android:text="@string/ver_pwd"
+                    android:textColor="@android:color/darker_gray"
+                    android:textColorLink="@color/colorPrimaryDark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bVigAyuda"
+                    android:layout_width="52dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="@android:drawable/ic_menu_help"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/etVigpwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:ems="10"
+                    android:fontFamily="@font/exo2regular"
+                    android:hint="@string/plano"
+                    android:inputType="textPassword"
+                    android:maxLength="24"
+                    android:maxLines="1"
+                    android:singleLine="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimaryDark" />
+
+                <Button
+                    android:id="@+id/bVigborrarpwd"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="@android:drawable/ic_input_delete"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/bVigpegarpwd"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/actionModePasteDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvVigentrada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/exo2regular"
+                    android:text="@string/input_e"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/bVigborrarentrada"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="@android:drawable/ic_input_delete"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/bVigpegarentrada"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/actionModePasteDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etVigentrada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:fontFamily="@font/exo2regular"
+                android:hint="@string/plano"
+                android:inputType="textCapSentences|textMultiLine"
+                android:singleLine="false"
+                android:textColor="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/exo2regular"
+                    android:text="@string/output"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/bVigborrarsalida"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="@android:drawable/ic_input_delete"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/bVigcopiarsalida"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/actionModeCopyDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etVigsalida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/Dark_light"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="@string/cifrado"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textColor="@android:color/background_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bVigejecutar"
+                    android:layout_width="236dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.72"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/fingerprintAuthDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/exo2extrabold"
+                    android:text="@string/enc"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Switch
+                    android:id="@+id/swVig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.72"
+                    android:text=" "
+                    android:textColorLink="@color/colorPrimaryDark"
+                    android:thumbTint="@color/colorPrimary"
+                    android:trackTint="@android:color/background_light" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.72" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bForget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="@android:drawable/ic_menu_delete"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/exo2extrabold"
+                    android:onClick="borrar_portapapeles"
+                    android:text="@string/forget"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteY="299dp" />
+
+                <Button
+                    android:id="@+id/bVigShare"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableEnd="?android:attr/actionModeShareDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:onClick="compartir_salida_vig"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

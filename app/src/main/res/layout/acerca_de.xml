@@ -1,0 +1,172 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.uah.edu.miguelromeral.pruebas3.MainActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_acercade_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/exo2regular"
+                android:text="@string/novedad_github"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/bgithub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableRight="@drawable/github36"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/exo2extrabold"
+                    android:onClick="ir_github"
+                    android:text="@string/ir_github"
+                    android:textColor="@color/colorPrimary" />
+
+                <Space
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_acercade_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/exo2regular"
+                android:text="@string/AcercaDe"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/bmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableRight="@android:drawable/ic_dialog_email"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/exo2extrabold"
+                    android:onClick="enviar_mail"
+                    android:text="@string/b_email"
+                    android:textColor="@color/colorPrimary" />
+
+                <Space
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_acercade_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/exo2regular"
+                android:text="@string/tPrivacidad"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/bprivacidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableRight="@android:drawable/ic_dialog_info"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/exo2extrabold"
+                    android:onClick="ver_privacidad"
+                    android:text="@string/bPrivacidad"
+                    android:textColor="@color/colorPrimary" />
+
+                <Space
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

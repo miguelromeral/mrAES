@@ -1,0 +1,376 @@
+<resources>
+    <string name="app_name">mrCiphER=</string>
+
+    <!-- Comun para interfaces -->
+
+    <string name="e">Password:</string>
+    <string name="plano">Flat message</string>
+    <string name="cifrado">Encrypted message</string>
+    <string name="ver_pwd">Show password</string>
+    <string name="no_ver_pwd">Hide password</string>
+    <string name="ok">Ok</string>
+    <string name="h_e">Key to encrypt data</string>
+    <string name="input_e">Message to encrypt:</string>
+    <string name="input_d">Mensaje a descifrar:</string>
+    <string name="output">Output:</string>
+    <string name="clave">Password:</string>
+
+    <!-- BOTONES -->
+
+    <string name="enc">ENCRYPT</string>
+    <string name="desenc">DECRYPT</string>
+    <string name="copy">COPY OUTPUT</string>
+    <string name="help">HELP</string>
+    <string name="borrar_in">DELETE INPUT</string>
+    <string name="borrar_out">DELETE OUTPUT</string>
+    <string name="paste_in">PASTE INPUT</string>
+    <string name="forget">CLEAR CLIPBOARD</string>
+    <string name="cipher">CIPHER</string>
+    <string name="hash">HASH</string>
+
+    <!-- Mensajes de error y advertencias por pantallas -->
+
+    <string name="w_falta_e">You must enter a password of between 1 and 16 characters to be able to encrypt the data.</string>
+    <string name="ex_e">A problem occurred during encryption.</string>
+    <string name="ex_cargar">A problem occurred while loading data.</string>
+    <string name="ex_guardar">A problem occurred while saving data.</string>
+    <string name="ex_cargar_preferencias">There was a problem loading preferences.</string>
+    <string name="ex_guardar_preferencias">There was a problem saving preferences.</string>
+    <string name="ex_salida">No output has occurred.</string>
+    <string name="ex_portapapeles">There are no items in the clipboard.</string>
+    <string name="ex_men">You cannot leave the message empty.</string>
+    <string name="c_no_coincide">The key does not correspond to the encrypted message.</string>
+    <string name="c_no_coincide_cab">Error decrypting.</string>
+    <string name="w_salir">Press the BACK button again to exit the application.</string>
+    <string name="w_forget">Are you sure you want to delete the current clipboard? The encrypted / decrypted content that you have generated will be deleted and cannot be recovered if you have not previously copied it.</string>
+    <string name="forgotten">Clipboard deleted successfully.</string>
+    <string name="w_compartir">You must generate an output to share the result.</string>
+    <string name="w_clave_rsa">You must enter a valid RSA key.</string>
+    <string name="w_pwd_solo_letras">The key can only have letters.</string>
+    <string name="warning"> WARNING !</string>
+    <string name="w_no_seguro">THIS ALGORITHM IS CONSIDERED UNSAFE</string>
+
+    <!-- Acerca De -->
+
+    <string name="devel">Developed by MiguelRomeral</string>
+    <string name="AcercaDe">Developed by MiguelRomeral</string>
+    <string name="b_email">SEND SUGGESTION</string>
+    <string name="w_email">There was a problem creating the message.</string>
+    <string name="mail_to">mailto:miguelangel.garciar@edu.uah.es</string>
+    <string name="subject_mail">Suggestion App mrCiphER=</string>
+    <string name="head_mail">Hi Miguel Romeral! I have tested your application and I would like to send you a suggestion for future versions:\n\n</string>
+    <string name="novedad_github">Because the beautiful thing is inside ... \nYou can see the content of the project on GitHub by clicking on the following button:</string>
+    <string name="ir_github">SEE PROJECT IN GitHub</string>
+    <string name="tPrivacidad">Read application privacy policy</string>
+    <string name="bPrivacidad">PRIVACY POLICY</string>
+
+    <!-- Generador de hashes -->
+
+    <string name="mensajehash">Message to hashear:</string>
+    <string name="hashear">GENERATE HASH</string>
+    <string name="mensajehasheado">Hash: [salt,h(salt|message)]</string>
+    <string name="mensajesalt">Salt (optional):</string>
+    <string name="random_salt">RANDOM</string>
+    <string name="bBorrarSal">CLEAR SALT</string>
+    <string name="bPegarSal">PASTE SALT</string>
+    <string name="bBorrarEntradaSal">CLEAR MESSAGE</string>
+    <string name="bPegarEntradaSal">PASTE MESSAGE</string>
+    <string name="bBorrarSalidaHash">CLEAR HASH</string>
+    <string name="bCopiarSalidaHash">COPY HASH</string>
+    <string name="algoritmoHash">Hash algorithm:</string>
+    <string name="sha512">SHA-512</string>
+    <string name="md5">MD5</string>
+    <string name="comparaHash">Compare with another hash</string>
+    <string name="hashCoincide">Both hashes are the same!</string>
+    <string name="hashNoCoincide">The hashes do not match</string>
+    <string name="noHashComparado">Must include a hash to compare.</string>
+    <string name="borrarHashCompara">CLEAR HASH</string>
+    <string name="pegarHashCompara">PASTE HASH</string>
+
+    <!-- MainActivity -->
+
+    <!-- Título en cada pestaña -->
+    <string name="tab_text_1">AES</string>
+    <string name="tab_text_2">HASH</string>
+    <string name="tab_text_3">RSA</string>
+    <string name="tab_text_4">DES</string>
+    <string name="tab_text_5">3DES</string>
+    <string name="tab_text_6">VIGENERE</string>
+    <string name="Proximamente">¡ Comming soon ;) !</string>
+    <!-- Título en cada fragment-->
+    <string name="alg_1">AES-128</string>
+    <string name="alg_2">HASH</string>
+    <string name="alg_3">RSA</string>
+    <string name="alg_4">TRIPLE DES</string>
+    <string name="alg_5">DES</string>
+    <string name="alg_6">VIGENERE</string>
+
+    <!-- Menu -->
+
+    <string name="action_about">About</string>
+    <string name="action_novedades">News</string>
+    <string name="action_actualizaciones">Update</string>
+    <string name="action_base64">Base64 Tool</string>
+
+    <!-- RSA -->
+
+    <string name="preference_file_key">archivo_claves_rsa</string>
+    <string name="operacion_rsa">Purpose of the operation:</string>
+    <string name="rsa_enviar_pub">EXPORT MY PUBLIC KEY</string>
+    <string name="clave_rsa">Key to use:</string>
+    <string name="clave_rsa_export">File name to export the key:</string>
+    <string name="fallo_rsa1">Could not encrypt with RSA</string>
+    <string name="fallo_rsa2">Could not decrypt with RSA</string>
+    <string name="advertencia_rsa">This encryption method is in testing. At this time it is NOT POSSIBLE
+       REUSE THE KEYS, so you SHOULD NOT ENCRYPT sensitive content with this method (unless
+       You are in the same session without closing the application. \nSorry for the inconvenience.</string>
+    <string name="rsa_mi_publica">PUBLIC</string>
+    <string name="rsa_mi_privada">PRIVATE</string>
+    <string name="rsa_ayuda">HELP</string>
+    <string name="rsa_mensaje_ayuda">You can use your public or private key by clicking on any of the buttons that are just under this
+      button. If you want to use a different key, you must have the file with the key in the /INTERNAL_STORAGE/Android/data/es.uah.edu.miguelangelgarciar.mraes/files/Documents/ folder.
+      Then, in the text of the key, enter the name of the file and you can use it. \nTo export our public key, enter the name
+      of the file in the text box below and click on EXPORT MY PUBLIC KEY</string>
+    <string name="rsa_mensaje_publica">--( MY PUBLIC KEY ) --</string>
+    <string name="rsa_mensaje_privada">--[ MY PRIVATE KEY ] --</string>
+    <string name="w_too_much_data">The text is too long to be encrypted..</string>
+    <string name="w_falta_terceros">Could not load that public key of another user. Enter the name of the file
+     belonging to the public key of the other user with whom you want to operate. It must be stored in
+       /INTERNAL_STORAGE/Android/data/es.uah.edu.miguelangelgarciar.mraes/files/Documents/.</string>
+    <string name="w_falta_export">You must enter a file name to export the public key.</string>
+    <string name="exito_clave">Key exported successfully.</string>
+    <string name="error_clave">Could not export key.</string>
+    <string name="clave_nueva">We will create a new RSA key for this phone.</string>
+    <string name="clave_nueva_error">We could not create an RSA key for this phone.</string>
+
+    <!-- Vigenere -->
+
+    <string name="w_cesar">If you enter a single letter as a key, you could convert Vigenere encryption to César encryption (although it is much less secure).</string>
+    <string name="w_solo_letras">The message contains numbers and special characters (such as accents or eñes). THESE CHARACTERS WILL NOT BE ENCRYPTED.</string>
+
+    <!-- Secreto -->
+
+    <string name="secreto0">Why don\'t you try to keep deleting the output?</string>
+    <string name="secreto1">Hey hey hey! Do you want to make sure that you have deleted the content, eh?</string>
+    <string name="secreto2">Well, now I have another secret for you, clever. Let\'s see if you are able to guess the password
+       to be able to decipher this secret message that I leave to the curious person who has found this secret activity</string>
+    <string name="secreto3">Password: m********</string>
+    <string name="secreto4">3WM5nkTKkwFSsovUnjooMnoLWU/nZOvVfGry8I2GuPZr3j4bYCK7iSLsvCeY21UtGCqf4hE6RTSd
+4ts9pxiPuHc2uBGsGLRUf6CiZpvKLeZCgVqPcVevAT6/XBwy6x8E7ptnUjaYB6kaDfHIsoTODgTN
+lOOKQldUX7oHsQFO56ToSCU6Vgn4ylQYAuU9zBrJylfUs7LWZRVVye76JCGCmwqmMubea6XrhKHy
+TQ1rFVDipIvjdJqaacIbHaKeuCJtPSnCuSWDbFqEBFQpi+6p2bMZiMvTMYV43LGvjH2ovgulN4bS
+EG97KEUemzLAUnbtR0wo/YvdIgJuqHYNRxnVuzNLoEZzOI+Oa9tELhXtnvnE221XHF3cjdSjSE2Z
+Lh6IbykyGTQn0CZsuTygjfZIfOEBhA77iqSTwXv4BxF1FYBDyy5rbzHZvha44hRg/u3GFQp1cS2x
+jDU03sOWj3/Ta6gqeINQwGmbjKTLxnx22jhVMmzrzdKx/KbX9hSDdxrUPAE7MACLPPJAt/XT1UqW
+Evb50lYl9GB5WRdCAadlImJqVFKZLS3sLfU7PhRgnI+GlafUijA/wZP8HeN1RyRNxB0MCtPIQuSe
+70L5lQ4pbZeE//TtdmpS3cWehqMW5DO+iiSWJbaQ4AMAoiBtKncC5oycxGSYUIGFQB032YG0OOOt
+H7qR/QP9zh1UEJH7B5S0uYVWWUBxgupL/bLnqPGG/6NBy4N5dWT5KL4kQAsk86WlL28cvyOLvFRn
+60o85avvQIobneDqJXK11ntVaIew8U2ra5SwI/Hh2j2ICdr0ctOk4bMe8buKQ/Xl/4hBfzD8n34m
+hGaors2/BwLRzjfVReS/NYNWhYYK1DlXh0v50DTj+WY0/4Zqy0YHypx1S2mjM79hxuE44BQBIzJL
+93aL26/qO4/QQXtx5Bk/FzWGsQ54xB7ls23lu/P2ZXv20UH5uuklkz7H1xSFKTA9wLOG9MlaZmUq
+Zyl+Ye1q1uVFqhDJMGovsmZX/e7pkGODn20nnzvlT26Xbra34r1o0AdHINd0scaI39Dfmxuphv2X
+ZkNarCYJdvLEsZ8Lf69ObZx+</string>
+    <string name="secreto5">COPY SECRET</string>
+    <string name="secreto6">PD: remember that you can return by pressing 7 times in a row with 5 seconds
+            maximum difference on the DELETE OUTPUT button in AES</string>
+    <string name="secreto7">Secret copied to clipboard.</string>
+
+    <!-- DES -->
+
+    <string name="borrar_pwd">DELETE PASSWD</string>
+    <string name="pegar_pwd">PASTE PASSWD</string>
+    <string name="generar_pwd">GENERATE KEY</string>
+    <string name="des_pwd">Password:</string>
+    <string name="adv_generar_pwd">Are you sure you want to generate a new key? If you have encrypted data with a different key you could not decrypt it
+       With the new one. It is recommended to save the previous password.</string>
+
+    <!-- Triple DES -->
+
+    <string name="triple_des_pwd">Password:</string>
+    <string name="w_falta_pwd">You need to enter a password in Base64.</string>
+
+
+    <!-- Ayuda -->
+
+    <string name="ver_video">WATCH EXPLANATORY VIDEO</string>
+    <string name="fuente_upm">Vídeo: www.criptored.upm.es/thoth/</string>
+    <string name="w_video">There was a problem that we cannot redirect to the video. Sorry for the inconvenience.</string>
+
+    <!-- Ayuda AES -->
+
+    <string name="ayuda">AYUDA</string>
+    <string name="ayuda_aes_wiki">Advanced Encryption Standard (AES), also known as Rijndael
+           (pronounced "Rain Doll" in English), is a block encryption scheme adopted as a
+           Encryption standard by the United States government. The AES was announced by the
+           National Institute of Standards and Technology (NIST) as FIPS PUB 197 of the States
+           United (FIPS 197) on November 26, 2001 after a standardization process that
+           It lasted 5 years. It became an effective standard on May 26, 2002. Since 2006,
+           AES is one of the most popular algorithms used in symmetric cryptography.</string>
+    <string name="ayuda_aes_funcionamiento">To encrypt in AES, you must enter a maximum password
+       16 characters, since the key must have 128 bits of key. The missing bytes in the key
+       They will be filled with spaces. After entering a password, you must write any message
+       and click on the ENCRYPT / DESCIRATE button to transform the data.</string>
+    <string name="fuente_wiki">Source: en.wikipedia.org</string>
+
+
+    <!-- Actualizaciones -->
+
+    <string name="nueva_actualizacion">Update available</string>
+    <string name="actualizacion_mensaje">There is currently a new version of mrCiphER =. Do you want to install it at this time?
+           IMPORTANT: You must have the option "Unknown sources" activated in the phone settings on applications.</string>
+    <string name="act_no">NOT NOW</string>
+    <string name="act_si">UPDATE</string>
+    <string name="act_buscando">Looking for updates</string>
+    <string name="act_error">An error occurred while trying to update the application. We apologize for the inconveniences.</string>
+    <string name="act_actualizado">You now have the latest version of the application! We will automatically check if they exist
+           updates without you having to worry.</string>
+
+    <!-- Base64 Herramienta -->
+
+    <string name="b64_titulo">BASE64 TOOL</string>
+    <string name="b64_input">Base64 text:</string>
+    <string name="b64_output">Hexadecimal string:</string>
+    <string name="b64_output_char">Character string:</string>
+    <string name="b64_exe">CONVERT</string>
+    <string name="ex_b64">The text string entered is not in base 64. The conversion could not be performed</string>
+
+    <!-- Novedades -->
+
+    <string name="Novedades">========================================\n\n
+      \t Version 2.0 \n
+      \n
+      - Official launch on Google Play. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.7.4 (beta) \n
+      \n
+      - Changes in the user interface (Source). \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.7.3 (beta) \n
+      \n
+      - Fixed small bugs in AES. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.7.2 (beta) \n
+      \n
+      - You can now export public keys in RSA and use imported keys. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.7.1 (beta) \n
+      \n
+      - Direct access to the GitHub project. \n
+      - Created a tool to pass strings for Base64 to hexadecimal. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.7 (beta) \n
+      \n
+      - Check for updates of the application automatically (when starting the application several times) and manually (in the menu). \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.6.2 (beta) \n
+      \n
+      - Changed the source of the application. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.6.1 (beta) \n
+      \n
+      - Added information about the AES algorithm. \n
+      - RSA keys are already persistent. It is not yet possible to operate with another user\'s public key (to get the most out of it
+      to asymmetric cryptography). \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.6 (beta) \n
+      \n
+      - Added secure DES (3DES in ede mode). \n
+      - Added Vigenere encryption (with a single letter key, Cesar encryption is achieved). \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.5.2 (beta) \n
+      \n
+      - Added the other missing Hash algorithms such as SHA-224 or SHA-1. \n
+      - Modifications in the interface and restructuring of the application. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.5.1 (beta) \n
+      \n
+      - Fixed performance issues at application startup. \n
+      - Included a button in the "About" activity where you can send suggestions to the developer.
+      - Changes in the interface: routine buttons with symbols instead of such long texts. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.5 (beta) \n
+      \n
+      - Implemented encryption with DES. \n
+      - Passwords in AES and DES are saved \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.4 (beta) \n
+      \n
+      - Implemented encryption with RSA but with non-reusable keys. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.3.1 (beta) \n
+      \n
+      - Added a little secret;) Let\'s see who deciphers it. \n
+      - Including an activity with the news in each version. \n
+      - Including tabs for future features (although not shown). \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.3.0 (beta) \n
+      \n
+      - Including an "About" activity with information about the developer. \n
+      - Changed the structure of the App to fragments (better access to functionalities). \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.2.1 (beta) \n
+      \n
+      - Button to share the cipher output (call to the operating system). \n
+      - Added functionality to compare hashes between them. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.2.0 (beta) \n
+      \n
+      - Added functionality to generate hashes in SHA512 and MD5 (including salt) and options on them.
+      - Button to erase the cipher output. \n
+      - Button to erase the contents of the clipboard. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.1.2 (beta) \n
+      \n
+      - Changed interface look to black and blue (including logo). \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.1.0 (beta) \n
+      \n
+      - Added buttons to improve copying / pasting of encryption. \n
+      \n
+      ======================================== \n
+      \n
+      \t Version 1.0.0 (beta) \n
+      \n
+      - Functionality tested. \n
+      - First version of the 128-bit AES cipher. \n
+      \n
+      ======================================== \n
+      \n
+    </string>
+</resources>

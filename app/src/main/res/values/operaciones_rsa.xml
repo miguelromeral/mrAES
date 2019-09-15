@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operaciones_rsa">
+        <item name="conf">CONFIDENCIALIDAD</item>
+        <item>AUTENTICACIÓN</item>
+    </string-array>
+</resources>

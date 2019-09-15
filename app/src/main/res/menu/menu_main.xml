@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.uah.edu.miguelromeral.pruebas3.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_novedades"
+        android:orderInCategory="100"
+        android:title="@string/action_novedades"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_base64"
+        android:orderInCategory="100"
+        android:title="@string/action_base64"
+        app:showAsAction="never" />
+</menu>

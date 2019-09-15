@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        firma_automatica {
+            keyAlias 'mrCiphER'
+            keyPassword 'keypasswordmrcipher'
+            storeFile file('M:/AndroidStudioProjects/Claves Android/mrcipher_key.jks')
+            storePassword 'storepasswordmrcipher'
+        }
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        //applicationId 'es.miguelromeral.mrcipher'
+        applicationId "es.uah.edu.miguelangelgarciar.mraes"
+        minSdkVersion 28
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 28
+        versionCode 30
+        versionName "2.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.firma_automatica
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    //compile 'com.google.firebase:firebase-core:12.0.1'
+    compile 'com.google.firebase:firebase-config:11.6.2'
+    compile 'com.google.code.gson:gson:2.7'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation files('libs/bcpkix-jdk15on-159.jar')
+    implementation files('libs/bcprov-ext-jdk15on-159.jar')
+}
+
+apply plugin: 'com.google.gms.google-services'

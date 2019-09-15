@@ -1,0 +1,190 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.uah.edu.miguelangelgarciar.mraes.activities.MainActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/b64entrada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/exo2regular"
+                    android:text="@string/b64_input"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b64borrarentrada"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="@android:drawable/ic_input_delete"
+                    android:drawableTint="@color/colorPrimary"
+                    android:onClick="borrar_entrada"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/b64pegarentrada"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/actionModePasteDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:onClick="pegar_entrada"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et64entrada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:fontFamily="@font/exo2regular"
+                android:hint="@string/plano"
+                android:inputType="textCapSentences|textMultiLine"
+                android:singleLine="false"
+                android:textColor="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/b64salida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/exo2regular"
+                    android:text="@string/b64_output"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b64copiarsalida"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/actionModeCopyDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:onClick="borrar_hex"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et64salida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/Dark_light"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/exo2regular"
+                android:hint="@string/cifrado"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/b64salidachar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/exo2regular"
+                    android:text="@string/b64_output_char"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b64copiarsalidaChar"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/actionModeCopyDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:onClick="borrar_char"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et64salidaChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/Dark_light"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/exo2regular"
+                android:hint="@string/cifrado"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b64ejecutar"
+                    android:layout_width="236dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.72"
+                    android:backgroundTint="@color/Dark_light"
+                    android:drawableLeft="?android:attr/actionModeFindDrawable"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="@font/exo2extrabold"
+                    android:onClick="convertir"
+                    android:text="@string/b64_exe"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
