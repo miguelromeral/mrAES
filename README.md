@@ -1,6 +1,6 @@
-# mrCiphER= (beta)
+# ![thumbnail](https://lh3.googleusercontent.com/5NF-jrGobC17Gj0luyiVKXoqgBAGysq_60lcUJpmTD9BEN0IO3z1MsE_WClQgpR4-KM=s180-rw) mrCiphER=
 
-Descarga la versión beta gratis desde https://um62b.app.goo.gl/mrCiphER
+Descarga la aplicación gratis desde [Google Play](https://play.google.com/store/apps/details?id=es.uah.edu.miguelangelgarciar.mraes).
 
 ## Introducción
 
@@ -19,9 +19,7 @@ El fin último de esta aplicación es puramente académico.
 
 Esta aplicación requiere de Android 9 (API 28) como mínimo para poder ser instalada. De lo contrario, el smartphone no será capaz de instalarla.
 
-Cualquier usuario puede descargarse el fichero .apk desde el siguiente enlace: https://um62b.app.goo.gl/mrCiphER
-La aplicación es compilada y subida a una carpeta en Dropbox. En el enlace se encuentra la versión más reciente de la aplicación.
-Es importante destacar que, puesto que no es una aplicación que se encuentre en Google Play, para poder instalarla será necesario tener el teléfono configurado para que permita la instalación de aplicaciones de origenes desconocidos (y confiar, además, en nuestra aplicación).
+Cualquier usuario puede descargarse la última versión desde el siguiente enlace: https://play.google.com/store/apps/details?id=es.uah.edu.miguelangelgarciar.mraes
 
 ## Funcionalidades y Capturas
 
@@ -29,72 +27,60 @@ Es importante destacar que, puesto que no es una aplicación que se encuentre en
 
 La idea original de mrCiphER= (luego se nos fue de las manos).
 
- ![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133022.png "Cifrado con AES")
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133048.png "Descifrado con AES")
+ ![Cifrado con AES](https://lh3.googleusercontent.com/p83Hc17t7mAdokIIo8xByEZfRrKAwlgh3QsWWqJOEtqMGdbS_Q-X0exJ54prlXHDbgcV=w1600-h734-rw "Cifrado con AES")
+![Descifrado con AES](https://lh3.googleusercontent.com/c8mRWC8WEAXZj0Nvls8g0iL7t7Y65dc7P9EeETf3d7mVInt-erWOzprEY9BSf7tKblA=w1600-h734-rw "Descifrado con AES")
 
 ### RSA
 
 La infraestructura de clave pública dominante. Antes tendrás que intercambiar la clave pública con tus amigos.
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180419-230459.png "Cifrado con RSA")
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180419-230516.png "Descifrado con RSA")
+![Cifrado con RSA](https://lh3.googleusercontent.com/NmZ9by6Hk49YSgaQDidCx71AMKNUo6QGgPmYy977iSM7UBs9j9ApuW-tasw6N64xIA=w1600-h734-rw "Cifrado con RSA")
 
 Si un amigo te pasa su clave pública (se puede exportar justo debajo del cifrado RSA), puedes almacenarla en la memoria del teléfono e importarla para operar con ella.
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180419-230627.png "Conseguimos confidencialidad con Raúl")
-
+*Importante: las claves RSA son generadas en el teléfono en la instalación.*
 
 ### 3DES (ede)
 
 ¿Posiblemente el método más seguro de la aplicación? ¡Sin duda! La clave es de 168 bits (la de AES 128), por lo que puedes cifrar contenido sin miedo.
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133243.png "Cifrado con Triple DES")
+![Cifrado con Triple DES](https://lh3.googleusercontent.com/Ak8TX1LkT8bSgvfDRGcwKiWH35FNy1I9DrcM9zlNNWR5KXDeTvnniaw2mUMc_SjtBw=w1600-h734-rw "Cifrado con Triple DES")
 
 ### DES
 
 Aunque este algoritmo ya no se considera seguro, no está de más incluirlo.
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133344.png "Cifrado con DES")
-
 ### Vigenere
 
 Cifrado Vigenere, ¡como los de antes! Si la clave es una única letra, se obtiene un cifrado César.
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133435.png "Cifrado con Vigenere")
+![Cifrado con Vigenere](https://lh3.googleusercontent.com/yFSFpu0tBw6WxEif2Ob_7C4onmxwiWnsulZJ6nw5OpKH0_RNJa6GNmvRHXb3Hg_Kow=w1600-h734-rw "Cifrado con Vigenere")
 
 ### Generador de Hashes
 
 Se pueden crear hashes en SHA-512 (más seguro).
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133609.png "Generador de Hash SHA-512")
+![Generador de Hash SHA-512](https://lh3.googleusercontent.com/16BxObMufc-YvVuixnk_fHHGoKKdkEuNRwBdTlljKi1ZA2acbJzjPwHTDDCcia0XiNA=w1600-h734-rw "Generador de Hash SHA-512")
 
-Incluso MD5, aunque sea menos seguro.
-
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133523.png "Generador de Hash MD5")
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133536.png "Generador de Hash MD5")
+Incluso MD5, aunque sea menos seguro, entre otros algoritmos.
 
 ### Herramienta Base64
 
 A veces no queremos que el contenido se cifre en Base64, mejor en hexadecimal.
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133703.png "Observando el contenido en Base64")
-
-### Comprobación automática de actualizaciones
-
-También se pueden comprobar si existen actualizaciones de forma manual. Se hace uso de Google Firebase para tener la versión más reciente.
-
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-134522.png "Actualizaciones disponibles")
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180416-133730.png "Versión actualizada a la versión más reciente")
+![Herramienta Base64](https://lh3.googleusercontent.com/xcQA61wavCgTDaH6So-JcKFee8CVzZrnRSfSlrVr1xscWlxZVJaSMiYeGf3sGLPxNQ=w1600-h734-rw "Observando el contenido en Base64")
 
 ### Registro de cambios y modificaciones
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180419-230644.png "Cambios en las versiones")
+Lista de novedades en cada una de las versiones lanzadas
 
-### Contacto con el desarrollador
+### Acerca De
 
-![alt text](https://github.com/miguelromeral/mrAES/blob/master/Capturas/Redimensionadas/screenshot_20180419-230654.png "Contacto con el desarrollador")
+Acceso al código en GitHub de la aplicación, contacto con el desarrollador e incluso un enlace hacia la política de privacidad.
 
-### ¡Y una actividad secreta! (no vale inspeccionar el código antes)
+### ¡Y una actividad secreta!
+
+(No vale inspeccionar el código antes)
 
 ## Pruebas
 
@@ -111,11 +97,11 @@ Como este proyecto es un proyecto personal desarrollado durante el tiempo libre 
 
 ## Contacto
 
-Correo electrónico: miguelangel.garciar@edu.uah.es
+Correo electrónico: [miguelangel.garciar@edu.uah.es](mailto:miguelangel.garciar@edu.uah.es)
 
-LinkedIn: Miguel Romeral (https://www.linkedin.com/in/miguelromeral/)
+LinkedIn: [in/miguelromeral](https://www.linkedin.com/in/miguelromeral/)
 
-Twitter: @MiguelRomeral (https://twitter.com/MiguelRomeral)
+Twitter: [@MiguelRomeral](https://twitter.com/MiguelRomeral)
 
 ## Licencia
 
