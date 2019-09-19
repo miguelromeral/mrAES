@@ -238,7 +238,11 @@ XofqKvivYYwt
 
     <!-- Novedades -->
 
-        <string name="Novedades">
+        <string name="Novedades">========================================\n\n
+      \t Versión 2.0.1 \n
+      \n
+      - Arreglados los problemas de interfaz en AES, Hash y RSA. \n
+        \n
         ========================================\n
         \n
         \tVersión 2.0 \n

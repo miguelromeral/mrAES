@@ -9,17 +9,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/background_dark">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        android:background="@android:color/background_dark"
+        android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/layoutCifrador"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
@@ -43,6 +39,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
                     android:layout_weight="1" />
+
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -71,32 +69,23 @@
                         android:textColorLink="@color/colorPrimaryDark"
                         android:textSize="16sp" />
 
+
+
                 </LinearLayout>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="horizontal">
-
-                 <!--   <Button
-                        android:id="@+id/bExe2"
-                        android:layout_width="42dp"
-                        android:layout_height="50dp"
-                        android:layout_weight="1"
-                        android:backgroundTint="@color/Dark_light"
-                        android:drawableLeft="@android:drawable/ic_dialog_info"
-                        android:drawableTint="@color/colorPrimary"
-                        android:fontFamily="@font/ubuntu_bold"
-                        android:onClick="ayuda_aes"
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="18sp" /> -->
 
                     <EditText
                         android:id="@+id/etPublica"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:height="100dp"
                         android:backgroundTint="@color/colorPrimary"
                         android:ems="10"
                         android:fontFamily="@font/exo2regular"
@@ -113,6 +102,7 @@
                         android:backgroundTint="@color/Dark_light"
                         android:drawableLeft="@android:drawable/ic_input_delete"
                         android:drawableTint="@color/colorPrimary"
+                        android:height="100dp"
                         android:fontFamily="@font/ubuntu_bold"
                         android:textColor="@color/colorPrimary" />
 
@@ -120,6 +110,7 @@
                         android:id="@+id/bPegarPWDaes"
                         android:layout_width="47dp"
                         android:layout_height="50dp"
+                        android:height="100dp"
                         android:backgroundTint="@color/Dark_light"
                         android:drawableLeft="?android:attr/actionModePasteDrawable"
                         android:drawableTint="@color/colorPrimary"
@@ -127,6 +118,7 @@
                         android:textColor="@color/colorPrimary" />
 
                 </LinearLayout>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -302,7 +294,12 @@
                         android:textColor="@color/colorPrimary" />
                 </LinearLayout>
 
+
             </LinearLayout>
-        </LinearLayout>
+
+
+
+
+
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

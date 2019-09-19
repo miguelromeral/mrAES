@@ -237,6 +237,11 @@ ZkNarCYJdvLEsZ8Lf69ObZx+</string>
     <!-- Novedades -->
 
     <string name="Novedades">========================================\n\n
+      \t Version 2.0.1 \n
+      \n
+      - Fixed GUI bug in AES, Hash and RSA. \n
+        \n
+      \n========================================\n\n
       \t Version 2.0 \n
       \n
       - Official launch on Google Play. \n
