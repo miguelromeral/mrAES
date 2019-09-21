@@ -23,6 +23,11 @@ Cualquier usuario puede descargarse la última versión desde el siguiente enlac
 
 ## Funcionalidades y Capturas
 
+En el siguiente vídeo se muestran las principales funcionalidades de la aplicación:
+
+[![Funcionalidades de mrCiphER=](https://img.youtube.com/vi/PGC5OUYtPDQ/0.jpg)](https://www.youtube.com/watch?v=PGC5OUYtPDQ)
+
+
 ### AES-128
 
 La idea original de mrCiphER= (luego se nos fue de las manos).
