@@ -1,6 +1,6 @@
-# ![thumbnail](https://lh3.googleusercontent.com/5NF-jrGobC17Gj0luyiVKXoqgBAGysq_60lcUJpmTD9BEN0IO3z1MsE_WClQgpR4-KM=s180-rw) mrCiphER=
+# <img alt='mrCiphER=' src='https://lh3.googleusercontent.com/5NF-jrGobC17Gj0luyiVKXoqgBAGysq_60lcUJpmTD9BEN0IO3z1MsE_WClQgpR4-KM=s180-rw' height="35" width="auto" /> mrCiphER= ![](https://img.shields.io/badge/android-9.0-green)
 
-Descarga la aplicación gratis desde [Google Play](https://play.google.com/store/apps/details?id=es.uah.edu.miguelangelgarciar.mraes).
+<a href='https://play.google.com/store/apps/details?id=es.uah.edu.miguelangelgarciar.mraes&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="70" width="auto" /></a>
 
 ## Introducción
 
@@ -19,7 +19,7 @@ El fin último de esta aplicación es puramente académico.
 
 Esta aplicación requiere de Android 9 (API 28) como mínimo para poder ser instalada. De lo contrario, el smartphone no será capaz de instalarla.
 
-Cualquier usuario puede descargarse la última versión desde el siguiente enlace: https://play.google.com/store/apps/details?id=es.uah.edu.miguelangelgarciar.mraes
+Cualquier usuario puede descargarse la última versión desde el siguiente enlace: http://bit.ly/2kYgyNj
 
 ## Funcionalidades y Capturas
 
@@ -85,6 +85,8 @@ Acceso al código en GitHub de la aplicación, contacto con el desarrollador e i
 ## Pruebas
 
 Puesto que se trata de una aplicación en desarrollo, algunas de las funcionalidades están bajo pruebas por el propio desarrollador. Son bienvenidas sugerencias sobre la aplicación (añadir nuevas funcionalidades, errores encontrados, etc) al correo electrónico del desarrollador (ver en Contacto). 
+
+Existe un canal beta de versiones de la aplicación en Google Play con el fin de ser probada por todos los usuarios que lo deseen, proporcionando el feedback correspondiente para el desarrollador.
 
 Para trastear con el código, puedes duplicar el proyecto en cualquier momento. Este proyecto está desarrollado en el IDE Android Studio en su versión 3.0. De esta forma, podrás incluir los cambios que consideres necesarios e incluso añadir nuevas funcionalidades.
 Como este proyecto es un proyecto personal desarrollado durante el tiempo libre del desarrollador, por lo que en este momento no dispone de la atención propia de una aplicación en producción.
