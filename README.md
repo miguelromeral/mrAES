@@ -1,4 +1,4 @@
-# <img alt='mrCiphER=' src='https://lh3.googleusercontent.com/5NF-jrGobC17Gj0luyiVKXoqgBAGysq_60lcUJpmTD9BEN0IO3z1MsE_WClQgpR4-KM=s180-rw' height="35" width="auto" /> mrCiphER= ![](https://img.shields.io/badge/android-9.0-green)
+# <img alt='mrCiphER=' src='https://lh3.googleusercontent.com/5NF-jrGobC17Gj0luyiVKXoqgBAGysq_60lcUJpmTD9BEN0IO3z1MsE_WClQgpR4-KM=s180-rw' height="35" width="auto" /> mrCiphER= ![](https://img.shields.io/badge/android-7.1-green)
 
 <a href='https://play.google.com/store/apps/details?id=es.uah.edu.miguelangelgarciar.mraes&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="70" width="auto" /></a>
 
@@ -17,7 +17,7 @@ El fin último de esta aplicación es puramente académico.
 
 ## Instalación
 
-Esta aplicación requiere de Android 9 (API 28) como mínimo para poder ser instalada. De lo contrario, el smartphone no será capaz de instalarla.
+Esta aplicación requiere de Android 7.1 (API 25) como mínimo para poder ser instalada. De lo contrario, el smartphone no será capaz de instalarla.
 
 Cualquier usuario puede descargarse la última versión desde el siguiente enlace: http://bit.ly/2kYgyNj
 
